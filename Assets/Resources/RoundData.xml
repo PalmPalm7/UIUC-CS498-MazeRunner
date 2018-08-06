@@ -1,0 +1,38 @@
+<jerryisbad>
+	<round>
+		<cap>1</cap>
+		<basic>1</basic>
+	</round>
+
+  <round>
+		<cap>1</cap>
+		<spiral>1</spiral>
+	</round>
+  
+  <round>
+		<cap>1</cap>
+		<tracking>1</tracking>
+	</round>
+    
+	<round>
+		<cap>3</cap>
+    <basic>2</basic>
+		<spiral>1</spiral>
+		<basic>2</basic>
+		<tracking>1</tracking>
+	</round>	
+
+	<round>
+		<cap>5</cap>
+    <tracking>1</tracking>
+    <basic>3</basic>
+		<spiral>1</spiral>
+	</round>	
+  
+	<round>
+		<cap>6</cap>
+    <basic>5</basic>
+		<boss>1</boss>
+	</round>	
+
+</jerryisbad>

@@ -1,0 +1,400 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-unsafe
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll'
+-r:'/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'/Users/highlandevil/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll'
+-r:'/Users/highlandevil/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll'
+-r:'/Users/highlandevil/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll'
+-r:'/Users/highlandevil/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll'
+-r:'/Users/highlandevil/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll'
+-r:'/Users/highlandevil/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll'
+-r:'/Users/highlandevil/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_0
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_OSX
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+'Assets/CorcraProps_Furniture_Lite/Scenes/Scripts/CameraOrbit.cs'
+'Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs'
+'Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs'
+'Assets/EffectExamples/Shared/Scripts/GunAim.cs'
+'Assets/EffectExamples/Shared/Scripts/GunShoot.cs'
+'Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs'
+'Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs'
+'Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs'
+'Assets/EncodePackage/Script/CaptureOption.cs'
+'Assets/EncodePackage/Script/FPSScript.cs'
+'Assets/EncodePackage/Script/NonSurroundCapture.cs'
+'Assets/EncodePackage/Script/SurroundCapture.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Antialiasing.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Bloom.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/BloomAndFlares.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/BloomOptimized.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Blur.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/BlurOptimized.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/CameraMotionBlur.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ContrastEnhance.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ContrastStretch.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/CreaseShading.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/DepthOfField.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/EdgeDetection.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Fisheye.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/GlobalFog.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Grayscale.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ImageEffectBase.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ImageEffects.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/MotionBlur.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/NoiseAndGrain.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/NoiseAndScratches.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/PostEffectsBase.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/PostEffectsHelper.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Quads.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ScreenOverlay.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/SepiaTone.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/SunShafts.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/TiltShift.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Tonemapping.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Triangles.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Twirl.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs'
+'Assets/Low Poly Egypt Starter Kit/Effects/ImageEffects/Scripts/Vortex.cs'
+'Assets/Low Poly Egypt Starter Kit/Scripts/Cam.cs'
+'Assets/OVR/Scripts/Composition/OVRCameraComposition.cs'
+'Assets/OVR/Scripts/Composition/OVRComposition.cs'
+'Assets/OVR/Scripts/Composition/OVRCompositionUtil.cs'
+'Assets/OVR/Scripts/Composition/OVRDirectComposition.cs'
+'Assets/OVR/Scripts/Composition/OVRExternalComposition.cs'
+'Assets/OVR/Scripts/Composition/OVRSandwichComposition.cs'
+'Assets/OVR/Scripts/OVRBoundary.cs'
+'Assets/OVR/Scripts/OVRCameraRig.cs'
+'Assets/OVR/Scripts/OVRCommon.cs'
+'Assets/OVR/Scripts/OVRDebugHeadController.cs'
+'Assets/OVR/Scripts/OVRDisplay.cs'
+'Assets/OVR/Scripts/OVRHaptics.cs'
+'Assets/OVR/Scripts/OVRHapticsClip.cs'
+'Assets/OVR/Scripts/OVRInput.cs'
+'Assets/OVR/Scripts/OVRLayerAttribute.cs'
+'Assets/OVR/Scripts/OVRLint.cs'
+'Assets/OVR/Scripts/OVRManager.cs'
+'Assets/OVR/Scripts/OVRMixedReality.cs'
+'Assets/OVR/Scripts/OVROnCompleteListener.cs'
+'Assets/OVR/Scripts/OVROverlay.cs'
+'Assets/OVR/Scripts/OVRPlatformMenu.cs'
+'Assets/OVR/Scripts/OVRPlugin.cs'
+'Assets/OVR/Scripts/OVRProfile.cs'
+'Assets/OVR/Scripts/OVRTouchpad.cs'
+'Assets/OVR/Scripts/OVRTracker.cs'
+'Assets/OVR/Scripts/Util/OVRChromaticAberration.cs'
+'Assets/OVR/Scripts/Util/OVRCubemapCapture.cs'
+'Assets/OVR/Scripts/Util/OVRDebugInfo.cs'
+'Assets/OVR/Scripts/Util/OVRGazePointer.cs'
+'Assets/OVR/Scripts/Util/OVRGearVrControllerTest.cs'
+'Assets/OVR/Scripts/Util/OVRGrabbable.cs'
+'Assets/OVR/Scripts/Util/OVRGrabber.cs'
+'Assets/OVR/Scripts/Util/OVRGridCube.cs'
+'Assets/OVR/Scripts/Util/OVRInputModule.cs'
+'Assets/OVR/Scripts/Util/OVRMixedRealityCaptureSettings.cs'
+'Assets/OVR/Scripts/Util/OVRModeParms.cs'
+'Assets/OVR/Scripts/Util/OVRMonoscopic.cs'
+'Assets/OVR/Scripts/Util/OVRMousePointer.cs'
+'Assets/OVR/Scripts/Util/OVRPhysicsRaycaster.cs'
+'Assets/OVR/Scripts/Util/OVRPlayerController.cs'
+'Assets/OVR/Scripts/Util/OVRPointerEventData.cs'
+'Assets/OVR/Scripts/Util/OVRProgressIndicator.cs'
+'Assets/OVR/Scripts/Util/OVRRaycaster.cs'
+'Assets/OVR/Scripts/Util/OVRResetOrientation.cs'
+'Assets/OVR/Scripts/Util/OVRRTOverlayConnector.cs'
+'Assets/OVR/Scripts/Util/OVRSceneSampleController.cs'
+'Assets/OVR/Scripts/Util/OVRScreenFade.cs'
+'Assets/OVR/Scripts/Util/OVRTrackedRemote.cs'
+'Assets/OVR/Scripts/Util/OVRWaitCursor.cs'
+'Assets/OvrAvatar/Samples/GripPoses/Scripts/PoseEditHelper.cs'
+'Assets/OvrAvatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatar.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarAsset.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarAssetMesh.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarAssetTexture.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarBase.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarBody.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarComponent.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarDriver.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarHand.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarLocalDriver.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarMeshInstance.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarPacket.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarProjectorRenderComponent.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarRemoteDriver.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarRenderComponent.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarSDKCAPI.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarSDKManager.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarSettings.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarSettingsEditor.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs'
+'Assets/OvrAvatar/Scripts/OvrAvatarTouchController.cs'
+'Assets/Particle Ribbon by Moonflower Carnivore/Scripts/randomParticleRotation.cs'
+'Assets/Particle Ribbon by Moonflower Carnivore/Scripts/ReverseNormals.cs'
+'Assets/Particle Ribbon by Moonflower Carnivore/Scripts/rotation.cs'
+'Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs'
+'Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs'
+'Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs'
+'Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs'
+'Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs'
+'Assets/PostProcessing/Runtime/Components/BloomComponent.cs'
+'Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs'
+'Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs'
+'Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs'
+'Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs'
+'Assets/PostProcessing/Runtime/Components/DitheringComponent.cs'
+'Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs'
+'Assets/PostProcessing/Runtime/Components/FogComponent.cs'
+'Assets/PostProcessing/Runtime/Components/FxaaComponent.cs'
+'Assets/PostProcessing/Runtime/Components/GrainComponent.cs'
+'Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs'
+'Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs'
+'Assets/PostProcessing/Runtime/Components/TaaComponent.cs'
+'Assets/PostProcessing/Runtime/Components/UserLutComponent.cs'
+'Assets/PostProcessing/Runtime/Components/VignetteComponent.cs'
+'Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs'
+'Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs'
+'Assets/PostProcessing/Runtime/Models/BloomModel.cs'
+'Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs'
+'Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs'
+'Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs'
+'Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs'
+'Assets/PostProcessing/Runtime/Models/DitheringModel.cs'
+'Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs'
+'Assets/PostProcessing/Runtime/Models/FogModel.cs'
+'Assets/PostProcessing/Runtime/Models/GrainModel.cs'
+'Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs'
+'Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs'
+'Assets/PostProcessing/Runtime/Models/UserLutModel.cs'
+'Assets/PostProcessing/Runtime/Models/VignetteModel.cs'
+'Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs'
+'Assets/PostProcessing/Runtime/PostProcessingComponent.cs'
+'Assets/PostProcessing/Runtime/PostProcessingContext.cs'
+'Assets/PostProcessing/Runtime/PostProcessingModel.cs'
+'Assets/PostProcessing/Runtime/PostProcessingProfile.cs'
+'Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs'
+'Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs'
+'Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs'
+'Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs'
+'Assets/Scripts/betweenScenes.cs'
+'Assets/Scripts/Minigame1/ambientNoise.cs'
+'Assets/Scripts/Minigame1/ClearPotions.cs'
+'Assets/Scripts/Minigame1/grabScript.cs'
+'Assets/Scripts/Minigame1/liquidColor.cs'
+'Assets/Scripts/Minigame1/particleScript.cs'
+'Assets/Scripts/Minigame1/playerParticleScript.cs'
+'Assets/Scripts/Minigame1/playPenscript.cs'
+'Assets/Scripts/Minigame1/potionGame.cs'
+'Assets/Scripts/Minigame1/potionScript.cs'
+'Assets/Scripts/Minigame1/PyramidCollapse.cs'
+'Assets/Scripts/Minigame1/sceneSwitcher.cs'
+'Assets/Scripts/Minigame1/smokeScript.cs'
+'Assets/Scripts/Minigame2/BasicTurret.cs'
+'Assets/Scripts/Minigame2/battleMusic.cs'
+'Assets/Scripts/Minigame2/BossTurret.cs'
+'Assets/Scripts/Minigame2/Game.cs'
+'Assets/Scripts/Minigame2/HealthBar.cs'
+'Assets/Scripts/Minigame2/Player.cs'
+'Assets/Scripts/Minigame2/Projectile.cs'
+'Assets/Scripts/Minigame2/SpiralTurret.cs'
+'Assets/Scripts/Minigame2/TrackingProjectile.cs'
+'Assets/Scripts/Minigame2/TrackingTurret.cs'
+'Assets/Scripts/Minigame2/Turret.cs'
+'Assets/Scripts/Minigame2/TurretManager.cs'
+'Assets/Scripts/Powers/Fireball.cs'
+'Assets/Scripts/Powers/FireballPower.cs'
+'Assets/Scripts/Powers/ParticleSystemDestroy.cs'
+'Assets/Scripts/Powers/Shield.cs'
+'Assets/Scripts/Powers/Sword.cs'
+'Assets/Scripts/Powers/Teleport.cs'
+'Assets/Scripts/startScript.cs'
+'Assets/Scripts/Timer.cs'
+'Assets/Scripts/Tutorial (topLevel)/ambientAudio.cs'
+'Assets/Scripts/Tutorial (topLevel)/FadeOut.cs'
+'Assets/Scripts/Tutorial (topLevel)/screenLeave.cs'
+'Assets/Scripts/Tutorial (topLevel)/tutorialPointer.cs'
+'Assets/Scripts/Tutorial (topLevel)/tutorialScreen.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity

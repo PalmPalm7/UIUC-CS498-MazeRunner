@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8d72829929b6c81458545aa66168aa56
+timeCreated: 1525671818
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - target: {instanceID: 0}
+  - projectile: {instanceID: 0}
+  - shotNoise: {fileID: 8300000, guid: 250532d7f00a9bb4c9239e3342e24e7e, type: 3}
+  - hurtNoise: {fileID: 8300000, guid: 071adc258943dc9408c8d21752695946, type: 3}
+  - dieNoise: {fileID: 8300000, guid: 9358469a0860e6741acee4cdfe6b122e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
